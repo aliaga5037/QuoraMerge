@@ -216,7 +216,7 @@ button[disabled]:hover {
   margin-top: -20px;
 }
 #content .questionText .comment {
-  width: 800px;
+  width: 97%;
   margin: 10px;
 }
 #content .questionText .morelink {

@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
                 "backgroundColor": "white"
             })
             $(".askbtn").text("suali tesdiqle")
-            $(".searchbar").addClass('m11')
+            $(".searchbar").addClass('m10')
         $(".sag").css("display","none");
     });
     $(".btn").click(function(event) {
@@ -55,7 +55,7 @@ jQuery(document).ready(function($) {
                 "backgroundColor": "white"
             })
             $(".askbtn").text("suali tesdiqle")
-            $(".searchbar").addClass('m11')
+            $(".searchbar").addClass('m10')
         $(".sag").css("display","none");    });
     $('.blur').click(function(e) {
         $(this).fadeOut(function() {
@@ -65,7 +65,7 @@ jQuery(document).ready(function($) {
                 "backgroundColor": "lightgray"
             })
         $(".sag").css("display","block");
-        $(".searchbar").removeClass('m11');
+        $(".searchbar").removeClass('m10');
          $(".askbtn").text("sual ver")
         
         

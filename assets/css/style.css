@@ -93,12 +93,14 @@ button[disabled]:hover {
 .sag {
   right: 0 !important;
   position: relative;
-  float: right !important; }
+  float: right !important; 
+}
   .sag .col {
     padding: 0 !important; }
   .sag a:hover {
     background: #dedede; }
   .sag a {
+    transition: ease 1s all;
     text-decoration: none;
     padding: 2%;
     -webkit-tap-highlight-color: transparent;
@@ -109,11 +111,11 @@ button[disabled]:hover {
       height: 24px;
       width: 24px; 
       position: relative;
-        top: 5px;
+        top: 7px;
     }
       .sag a span{
         position: relative;
-        top: -5px;
+        top: -7px;
       }
       .sag a span i{
         position: relative;
